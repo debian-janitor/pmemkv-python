@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Adam Borowski <kilobyte@angband.pl>
 Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all, libpython3-all-dev, libpmemkv-dev
 Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Homepage: https://github.com/pmem/pmemkv-python
 Vcs-Browser: https://github.com/kilobyte/pmemkv-python/tree/debian
 Vcs-Git: https://github.com/kilobyte/pmemkv-python.git -b debian

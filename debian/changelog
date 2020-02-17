@@ -1,5 +1,5 @@
-pmemkv-python (0.9-92-gee94aed-1) unstable; urgency=medium
+pmemkv-python (1.0~rc1-1) experimental; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #951503)
 
- -- Adam Borowski <kilobyte@angband.pl>  Fri, 14 Feb 2020 16:10:00 +0100
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 17 Feb 2020 15:36:07 +0100
