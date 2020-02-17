@@ -1,0 +1,30 @@
+Source: pmemkv-python
+Section: python
+Priority: optional
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all, sphinx-common, libpython3-all-dev, libpmemkv-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/pmem/pmemkv-python
+Vcs-Browser: https://github.com/kilobyte/pmemkv-python/tree/debian
+Vcs-Git: https://github.com/kilobyte/pmemkv-python.git -b debian
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-pmemkv
+Architecture: amd64
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-pmemkv-python-doc
+Description: key:value data store for persistent memory (Python 3)
+ This library provides a Python API for pmemkv -- a data store optimized
+ for persistent memory, but functional on traditional storage media as well.
+ .
+ This package installs the library for Python 3.
+
+Package: python-pmemkv-python-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: key:value data store for persistent memory (documentation)
+ This library provides a Python API for pmemkv -- a data store optimized
+ for persistent memory, but functional on traditional storage media as well.
+ .
+ This is the documentation package.

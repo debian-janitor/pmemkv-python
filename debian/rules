@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+export PYBUILD_NAME=pmemkv-python
+
+%:
+	dh $@ --with python3 --with sphinxdoc --buildsystem=pybuild
+
+override_dh_auto_build:
+	dh_auto_build
+	PYTHONPATH=. http_proxy='127.0.0.1:9' sphinx3-build -N -bhtml        docs/ build/html # HTML generator
+	PYTHONPATH=. http_proxy='127.0.0.1:9' sphinx3-build -N -bman        docs/ build/man # Manpage generator
