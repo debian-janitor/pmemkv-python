@@ -1,4 +1,5 @@
 Tests: basic-example
+Depends: python3-pmemkv
 
 Tests: restAPI
 Depends: python3-pmemkv, python3-pexpect, python3-requests, python3-falcon, pmdk-tools

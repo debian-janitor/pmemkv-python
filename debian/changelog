@@ -1,3 +1,10 @@
+pmemkv-python (1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Build a docs package.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 06 Mar 2020 17:44:57 +0100
+
 pmemkv-python (1.0~rc1-1) experimental; urgency=medium
 
   * Initial release (Closes: #951503)
