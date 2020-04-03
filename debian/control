@@ -19,6 +19,7 @@ Testsuite: autopkgtest-pkg-python
 Package: python3-pmemkv
 Architecture: amd64
 Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Provides: ${python3:Provides}
 Suggests: python-pmemkv-doc
 Description: key:value data store for persistent memory (Python 3)
  This library provides a Python API for pmemkv -- a data store optimized
@@ -30,6 +31,7 @@ Package: python-pmemkv-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Built-Using: ${sphinxdoc:Built-Using}
 Description: key:value data store for persistent memory (documentation)
  This library provides a Python API for pmemkv -- a data store optimized
  for persistent memory, but functional on traditional storage media as well.
