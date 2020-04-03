@@ -1,3 +1,11 @@
+pmemkv-python (1.0-2) unstable; urgency=medium
+
+  * Pass ${sphinxdoc:Built-Using} and ${python3:Provides}.
+  * Enable hardening.
+  * Install examples.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Fri, 03 Apr 2020 18:51:41 +0200
+
 pmemkv-python (1.0-1) unstable; urgency=medium
 
   * New upstream release.
