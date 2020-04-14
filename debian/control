@@ -31,6 +31,7 @@ Package: python-pmemkv-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Multi-Arch: foreign
 Built-Using: ${sphinxdoc:Built-Using}
 Description: key:value data store for persistent memory (documentation)
  This library provides a Python API for pmemkv -- a data store optimized
