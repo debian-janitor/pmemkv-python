@@ -1,3 +1,11 @@
+pmemkv-python (1.0-3) unstable; urgency=medium
+
+  * Make -doc M-A:foreign.
+  * Enable arm64 ppc64el.
+  * dh 13.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 10 Aug 2021 20:21:10 +0200
+
 pmemkv-python (1.0-2) unstable; urgency=medium
 
   * Pass ${sphinxdoc:Built-Using} and ${python3:Provides}.
