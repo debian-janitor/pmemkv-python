@@ -1,3 +1,9 @@
+pmemkv-python (1.0-4) unstable; urgency=medium
+
+  * Enable riscv64.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sat, 15 Jan 2022 23:46:12 +0100
+
 pmemkv-python (1.0-3) unstable; urgency=medium
 
   * Make -doc M-A:foreign.
