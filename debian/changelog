@@ -1,3 +1,10 @@
+pmemkv-python (1.0-5) UNRELEASED; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 22 Oct 2022 00:30:46 -0000
+
 pmemkv-python (1.0-4) unstable; urgency=medium
 
   * Enable riscv64.
