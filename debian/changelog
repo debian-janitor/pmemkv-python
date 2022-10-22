@@ -2,6 +2,7 @@ pmemkv-python (1.0-5) UNRELEASED; urgency=medium
 
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sat, 22 Oct 2022 00:30:46 -0000
 
